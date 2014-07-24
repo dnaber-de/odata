@@ -15,14 +15,14 @@
    limitations under the License.
  */
 
-require_once 'WebUtil/Microsoft_Http_Response.php';
-require_once 'WebUtil/HttpResponse.php';
-require_once 'Common/ACSUtil.php';
+require_once __DIR__ . '/autoload.php';
+\ODataSDK\autoload( __DIR__ );
 
 /*
  * @copyright  Copyright (c) 2010, Persistent Systems Limited (http://www.persistentsys.com)
  * @license    http://odataphp.codeplex.com/license
  */
+
 try
 {
     $util = new PHPSvcUtil($argv);

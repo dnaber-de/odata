@@ -15,8 +15,6 @@
    limitations under the License.
  */
 
-require_once 'CredentialBase.php';
-
 /*
  * @copyright  Copyright (c) 2010, Persistent Systems Limited (http://www.persistentsys.com)
  * @license    http://odataphp.codeplex.com/license

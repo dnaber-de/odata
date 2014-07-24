@@ -15,53 +15,6 @@
    limitations under the License.
  */
 
-require_once 'Interfaces/Object.php';
-require_once 'Azure/TableEntry.php';
-require_once 'Azure/Tables.php';
-require_once 'Resource/Messages.php';
-require_once 'Common/Dictionary.php';
-require_once 'Common/Collection.php';
-require_once 'Context/EntityStates.php';
-require_once 'Interfaces/Entity.php';
-require_once 'Context/ResourceBox.php';
-require_once 'Context/RelatedEnd.php';
-require_once 'Context/SaveResult.php';
-require_once 'Common/Guid.php';
-require_once 'Common/ClientType.php';
-require_once 'Common/ACSUtil.php';
-require_once 'Common/AzureTableUtil.php';
-require_once 'Common/ContentType.php';
-require_once 'Credential/CredentialType.php';
-require_once 'Credential/CredentialBase.php';
-require_once 'Credential/AzureTableCredential.php';
-require_once 'Credential/ACSCredential.php';
-require_once 'Credential/WindowsCredential.php';
-require_once 'Common/Utility.php';
-require_once 'Context/DataServiceQueryContinuation.php';
-require_once 'Context/QueryComponents.php';
-require_once 'Context/QueryOperationResponse.php';
-require_once 'Context/DataServiceQuery.php';
-require_once 'Context/DataServiceStreamResponse.php';
-require_once 'Context/DataServiceRequestArgs.php';
-require_once 'Context/SaveChangesOptions.php';
-require_once 'Context/DataServiceSaveStream.php';
-require_once 'Context/ContentStream.php';
-require_once 'Context/DataServiceResponse.php';
-require_once 'Context/OperationResponse.php';
-require_once 'Parser/AtomParser.php';
-require_once 'WebUtil/HttpBatchRequest.php';
-require_once 'WebUtil/HttpBatchResponse.php';
-require_once 'WebUtil/HttpRequest.php';
-require_once 'WebUtil/Microsoft_Http_Response.php';
-require_once 'WebUtil/HttpResponse.php';
-require_once 'WebUtil/HttpRequestHeader.php';
-require_once 'WebUtil/HttpVerb.php';
-require_once 'Common/HttpProxy.php';
-require_once 'Exception/ODataServiceException.php';
-require_once 'Exception/DataServiceRequestException.php';
-require_once 'Exception/InvalidOperation.php';
-require_once 'Exception/ACSUtilException.php';
-require_once 'Exception/InternalError.php';
 
 /*
  * @copyright  Copyright (c) 2010, Persistent Systems Limited (http://www.persistentsys.com)

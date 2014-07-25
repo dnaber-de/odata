@@ -97,7 +97,7 @@ class PHPSvcUtil
     {
         $this->_validateAndBuidOptions();
 
-        $xsl_path = get_cfg_var('ODataphp_path');
+        $xsl_path = __DIR__;
 
         if (strlen($xsl_path) == 0)
         {
